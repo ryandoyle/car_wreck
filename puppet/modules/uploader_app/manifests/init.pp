@@ -20,5 +20,6 @@ class uploader_app {
         ensure => directory,
         owner => root,
         mode => 755,
+        require => Package['httpd'],
     }
 }
