@@ -1,0 +1,27 @@
+Please read the following before starting the test
+==================================================
+
+SCENARIO
+
+    Superupload provides a basic file upload web application, similar to 
+    megaupload/rapidshare. Moments ago a brown-out caused the main application
+    server to reboot.
+
+    Superupload have not followed good operational practices and aren't using 
+    configration management! Their website did not come back up after the
+    server reboot and the CEO is very grumpy.
+
+YOUR MISSION
+
+    You need to get the web application back up ASAP! There are some notes 
+    about how the server is setup scribbled on the back of a serviette:
+
+    * The web application is written in PHP and runs on Apache
+    * The OS is RedHat Enterprise Linux
+    * Files are in default locations
+
+THE TEST
+    * You have an hour to get the site back up and running
+    * Best-practices will be awarded higher than quick hacks
+    * Use whatever resources are required as long as the test is done by 
+      yourself
