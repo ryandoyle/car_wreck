@@ -50,9 +50,9 @@ It's up to you really but I would mention:
 # AWS?
 
 Userdata:
-\#!/bin/bash
-yum -y install git
-git clone git://github.com/ryandoyle/car_wreck.git
-cd car_wreck && ./apply.sh
-cd .. && rm -rf car_wreck
+    #!/bin/bash
+    yum -y install git
+    git clone git://github.com/ryandoyle/car_wreck.git
+    cd car_wreck && ./apply.sh
+    cd .. && rm -rf car_wreck
 
