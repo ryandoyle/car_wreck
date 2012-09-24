@@ -1,4 +1,7 @@
 class postfix{
     package{'postfix': ensure => installed }
-    service{'postfix': ensure => running }
+    service{"postfix": 
+        ensure => running, 
+        enable => true,
+    }
 }

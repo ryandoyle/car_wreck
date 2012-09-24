@@ -1,4 +1,7 @@
 class apache::disabled {
     include apache
-    service {'httpd': ensure => stopped, }
+    service {"httpd": 
+        ensure => stopped, 
+        enable => false,
+    }
 }
