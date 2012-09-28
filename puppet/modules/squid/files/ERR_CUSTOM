@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head> 
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8"> 
+<title>ERROR: The requested URL could not be retrieved</title> 
+</head>
+<body>
+
+<h1>ERROR</h1>
+<h2>The requested URL could not be retrieved</h2>
+<p>The following error was encountered while trying to retrieve the URL: <a href="%U">%U</a></p>
+<blockquote id="error"> <p><b>Connection to %I failed.</b></p> </blockquote>
+<p id="sysmsg">The system returned: <i>%E</i></p>  <p>The remote host or network may be down. Please try the request again.</p>
+</body>
+</html>

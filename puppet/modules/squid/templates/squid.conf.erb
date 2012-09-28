@@ -1,0 +1,9 @@
+http_port 80 accel defaultsite=<%= @fqdn %>
+cache_peer 127.0.0.1 parent 8080 0 no-query originserver name=server
+
+acl our_sites dstdomain <%= @fqdn %>
+http_access allow our_sites
+cache_peer_access server allow our_sites
+cache_peer_access server deny all
+
+
