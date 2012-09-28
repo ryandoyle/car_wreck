@@ -16,9 +16,10 @@ This service is deemed working when:
 
 # What is broken?
 * Apache is stopped
-* Postfix is listening on port 80
+* Squid is listening on port 80
 * iptables is running and not configured to let port 80 through
 * The directory that stores the uploaded files has incorrect permissions 
+* root's $PATH is incorrect
 
 # How hard is the test?
 I don't know. It seems simple but that's because I wrote it :). It has to be hard enough to be effective but not so hard that it cannot be finished by those with good abilities.
