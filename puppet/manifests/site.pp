@@ -2,7 +2,7 @@ node default {
     include user::root
     include instructions
     include iptables
-    include postfix::broken
+    include squid::reverse
     include apache::disabled
     include uploader_app
 }
