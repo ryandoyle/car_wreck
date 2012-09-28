@@ -19,6 +19,8 @@ YOUR MISSION
     The following is known about the server:
 
     * The web application is written in PHP and runs on Apache
+    * The PHP application code is not faulty. You do not need to read
+      the code, but doing so may help diagnosis.
     * Apache serves file directly, there is not intermediate proxy
     * The OS is RedHat Enterprise Linux
     * Files are in default locations
