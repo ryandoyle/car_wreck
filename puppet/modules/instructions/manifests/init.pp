@@ -1,9 +1,9 @@
 class instructions{
-    file {"/root/INSTRUCTIONS.txt":
+    file {"/etc/motd":
         ensure => file,
         owner => root,
         group => root,
-        mode => 600,
+        mode => 644,
         source => "puppet:///modules/instructions/INSTRUCTIONS.txt",
     }
 }
