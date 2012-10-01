@@ -3,5 +3,6 @@ class squid {
     service {'squid': 
         ensure => running,
         require => Package['squid'],
+        enable => true,
     }
 }
