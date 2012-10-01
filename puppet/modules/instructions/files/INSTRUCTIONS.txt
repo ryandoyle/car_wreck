@@ -30,5 +30,6 @@ THE TEST
     * Best-practices will be awarded higher than quick hacks
     * Use whatever resources are required as long as the test is done by 
       yourself
+    * Your changes must survive a reboot
 
 
